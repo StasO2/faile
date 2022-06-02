@@ -1,0 +1,42 @@
+{
+  "Account": {
+    "id": 1,
+    "balance": 1000,
+    "books": [
+      {
+        "book": {
+          "title": "Книга №1",
+          "author": "Джек"
+        },
+        "amount": 1
+      },
+      {
+        "book": {
+          "title": "Книга №2",
+          "author": "Джек"
+        },
+        "amount": 2
+      }
+    ]
+  },
+  "Products": [
+    {
+      "id": 0,
+      "book": {
+        "title": "Слишком дорогая книга",
+        "author": "Джек"
+      },
+      "cost": 1200,
+      "amount": 1
+    },
+    {
+      "id": 1,
+      "book":{
+        "title": "Книга, которой нет",
+        "author": "Джек"
+      },
+      "cost": 1,
+      "amount": 0
+    }
+  ]
+}
